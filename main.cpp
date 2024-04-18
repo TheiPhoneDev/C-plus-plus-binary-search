@@ -89,7 +89,7 @@ void Ricerca(string v[]) {
       if(v[i]>chiave) {
         fine=i-1;
       } else {
-        fine=i+1;
+        inizio=i+1;
       }
     }
   }
